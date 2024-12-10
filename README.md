@@ -19,13 +19,7 @@ The results of these techniques will be compared in terms of:
 
 ## Datasets
 We utilize publicly available datasets for emotion recognition:
-- [RAVDESS](https://huggingface.co/datasets/AbstractTTS/RAVDESS)
-- [SAVEE](https://huggingface.co/datasets/AbstractTTS/SAVEE)
-
-The data is preprocessed into a structured format (CSV files) containing metadata such as:
-- Filepath
-- Speaker details (gender, age, accent, etc.)
-- Emotion labels
+- [CREMA-D](https://www.kaggle.com/datasets/ejlok1/cremad)
 
 ## Model Architecture
 The project fine-tunes the [Wav2Vec2-base](https://huggingface.co/facebook/wav2vec2-base) model. Both the base and pruned/distilled versions are evaluated to study the trade-offs between performance and efficiency.
